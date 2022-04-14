@@ -28,7 +28,7 @@ class FetchResult {
       isRetrievedFromCache == other.isRetrievedFromCache;
 
   @override
-  // TODO: implement hashCode
+ 
   int get hashCode => Object.hash(
         persons,
         isRetrievedFromCache,
